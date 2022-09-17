@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>SVG Editor</title>
+<link rel="stylesheet" href="https://resources.whatwg.org/spec.css">
+<link rel="stylesheet" href="https://resources.whatwg.org/standard.css">
+<link rel="stylesheet" href="https://resources.whatwg.org/standard-shared-with-dev.css">
+
+<link rel="stylesheet" href="css/main.css">
+<script async src="js/main.js"></script>
+
+<h1>SVG Editor</h1>
+
+<h2>Input</h2>
+
+<div id="container">
+<textarea>
+<svg width="400" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Center circle -->
+<circle cx="200" cy="200" r="40" fill="orange" stroke="red" stroke-width="3"/>
+
+<!-- Left, top, right, bottom circles -->
+<circle cx="100" cy="200" r="10" fill="orange" stroke="red" stroke-width="3"/>
+<circle cx="200" cy="100" r="10" fill="orange" stroke="red" stroke-width="3"/>
+<circle cx="300" cy="200" r="10" fill="orange" stroke="red" stroke-width="3"/>
+<circle cx="200" cy="300" r="10" fill="orange" stroke="red" stroke-width="3"/>
+</svg>
+</textarea>
+
+<div id="preview"></div>
+</div>
+
+<p>Share a link to this SVG image:</p>
+<button id="permalink">Get permalink</button>
+<button id="clear-hash">Clear hash</button>
+
+<p>Some cool SVGs</p>
+<ul>
+  <li><a href="#PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgxPSI1NS40MSIgeDI9IjEyLjExIiB5MT0iOTYuODciIHkyPSIyMS44NyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzFlOGUzZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM0YTg1MyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iNDIuNyIgeDI9Ijg2IiB5MT0iMTAwIiB5Mj0iMjUuMTMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmY2M5MzQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmYmJjMDQiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjYuNyIgeDI9IjkzLjI5IiB5MT0iMzEuMjUiIHkyPSIzMS4yNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2Q5MzAyNSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2VhNDMzNSIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNhKSIgZD0iTTkzLjI5IDI1YTUwIDUwIDkwIDAgMC04Ni42IDBsMyA1NHoiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNMjguMzUgNjIuNSA2LjcgMjVBNTAgNTAgOTAgMCAwIDUwIDEwMGw0OS01MHoiLz48cGF0aCBmaWxsPSJ1cmwoI2MpIiBkPSJNNzEuNjUgNjIuNSA1MCAxMDBhNTAgNTAgOTAgMCAwIDQzLjI5LTc1SDUweiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik01MCA3NWEyNSAyNSA5MCAxIDAgMC01MCAyNSAyNSA5MCAwIDAgMCA1MHoiLz48cGF0aCBmaWxsPSIjMWE3M2U4IiBkPSJNNTAgNjkuOGExOS44IDE5LjggOTAgMSAwIDAtMzkuNiAxOS44IDE5LjggOTAgMCAwIDAgMzkuNnoiLz48L3N2Zz4=">Google Chrome Logo (2022)</a></li>
+  <li><a href="#PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iNDUiIGZpbGw9IiNmZmYiIHN0cm9rZT0iIzNjNzkwYSIgc3Ryb2tlLXdpZHRoPSIxMCIvPgo8cGF0aCBkPSJtMzgsMzhjMC0xMiwyNC0xNSwyMy0yYzAsOS0xNiwxMy0xNiwyM3Y3aDEwdi00YzAtOSwxNy0xMiwxNy0yN2MtMi0yMi00NS0yMi00NSwzem03LDMyaDEwdjEwaC0xMCIgZmlsbD0iIzNjNzkwYSIvPgo8L3N2Zz4=">WHATWG logo</a></li>
+  <li><a href="#PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjMxNSIgdmlld0JveD0iMCAwIDc0MTAgMzkwMCI+CjxyZWN0IHdpZHRoPSI3NDEwIiBoZWlnaHQ9IjM5MDAiIGZpbGw9IiNiMjIyMzQiLz4KPHBhdGggZD0iTTAsNDUwSDc0MTBtMCw2MDBIMG0wLDYwMEg3NDEwbTAsNjAwSDBtMCw2MDBINzQxMG0wLDYwMEgwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMzAwIi8+CjxyZWN0IHdpZHRoPSIyOTY0IiBoZWlnaHQ9IjIxMDAiIGZpbGw9IiMzYzNiNmUiLz4KPGcgZmlsbD0iI2ZmZiI+CjxnIGlkPSJzMTgiPgo8ZyBpZD0iczkiPgo8ZyBpZD0iczUiPgo8ZyBpZD0iczQiPgo8cGF0aCBpZD0icyIgZD0iTTI0Nyw5MCAzMTcuNTM0MjMwLDMwNy4wODIwMzkgMTMyLjg3MzIxOCwxNzIuOTE3OTYxSDM2MS4xMjY3ODJMMTc2LjQ2NTc3MCwzMDcuMDgyMDM5eiIvPgo8dXNlIHhsaW5rOmhyZWY9IiNzIiB5PSI0MjAiLz4KPHVzZSB4bGluazpocmVmPSIjcyIgeT0iODQwIi8+Cjx1c2UgeGxpbms6aHJlZj0iI3MiIHk9IjEyNjAiLz4KPC9nPgo8dXNlIHhsaW5rOmhyZWY9IiNzIiB5PSIxNjgwIi8+CjwvZz4KPHVzZSB4bGluazpocmVmPSIjczQiIHg9IjI0NyIgeT0iMjEwIi8+CjwvZz4KPHVzZSB4bGluazpocmVmPSIjczkiIHg9IjQ5NCIvPgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI3MxOCIgeD0iOTg4Ii8+Cjx1c2UgeGxpbms6aHJlZj0iI3M5IiB4PSIxOTc2Ii8+Cjx1c2UgeGxpbms6aHJlZj0iI3M1IiB4PSIyNDcwIi8+CjwvZz4KPC9zdmc+">American flag</a></li>
+</ul>
+
+<h2>About</h2>
+
+<p>To learn more about writing SVG from scratch, visit <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial">https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial</a>.</p>

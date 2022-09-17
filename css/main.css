@@ -1,0 +1,25 @@
+h2 {
+  margin-top: 1em;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+textarea {
+  width: 650px;
+  height: 400px;
+  /* https://stackoverflow.com/a/56260129/3947332*/
+  margin-right: auto;
+}
+
+#preview {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+.error {
+  color: red;
+}
